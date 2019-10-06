@@ -1,0 +1,91 @@
+.contentText{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.centerText{
+    text-align: center;
+    position: relative;
+}
+.action_msg{
+    font-size: 16px;
+    color: rgb(12, 73, 12);
+}
+h1{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 1.1;
+    font-family: 'Poppins', sans-serif;
+}
+.contentText p{
+    margin: 0 0 10px;
+    font-weight: normal;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+}
+.add-button{
+    width: 200px;
+    background: none;
+    border: 2px solid #22b6b0;
+    border-radius: 20px;
+    color: black;
+    padding: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    margin: 12px 20px;
+    float: right;
+}
+.del-button{
+    width: 70px;
+    background: none;
+    border: 2px solid #d6252e;
+    border-radius: 20px;
+    color: #000000;
+    padding: 7px;
+    font-size: 14px;
+    cursor: pointer;
+    margin: 6px 10px;
+}
+.add-button:hover{
+    transition: all 0.7s ease;
+    background: #22b6b0;
+    color: #ffffff;
+}
+.del-button:hover{
+    transition: all 0.7s ease;
+    background: #d6252e;
+    color: #ffffff;
+}
+a{
+    text-decoration: none;
+    color: #343535;
+}
+.emp-table table{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    margin-top: 20px;
+    width: 800px;
+    line-height: 40px;
+}
+.emp-table td, .emp-table th{
+    border: 1px solid rgb(212, 212, 212);
+    padding: 8px;
+}
+.emp-table tr:nth-child(even){
+    background-color: #e4e1e1;
+}
+.emp-table tr:hover{
+    background-color: #b9b8b9;
+}
+.emp-table th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #22b6b0;
+    color: white;
+}
+.btm-marg60{
+    margin-bottom: 60px;
+}

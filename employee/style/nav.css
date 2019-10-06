@@ -1,0 +1,94 @@
+body{
+    background: #fff;
+    margin: 0;
+    padding: 0;
+    font-family: "Helvetica Neue",Helvetica;
+    font-size: 14px;
+    color: #000;
+}
+*{
+    box-sizing: border-box;
+}   
+.container{
+    width: 90%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.btm-marg60{
+    margin-bottom: 60px;
+}
+.row::before, .container::before, .nav::before{
+    display: table;
+    content: " ";
+}
+.row::after, .container::after, .nav::after{
+    clear: both;
+    display: table;
+    content: " ";
+}
+#top.sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;    
+    background-color: #f5f4f4;
+    border: none;
+    display: block;
+    z-index: 1;
+    transition: all 0.5s ease;
+}
+.sticky + .container{
+    margin-top: 70px;
+}
+#top {
+    border: none;
+    background: #fff;
+    box-shadow: 0px -2px 54px -2px rgba(0,0,0,0.12);
+    border-radius: 0;
+    margin-bottom: 0px;
+    min-height: 70px;
+    position: relative;
+}
+.nav{
+    list-style: none;
+    margin: 0;
+}
+.nav-right{
+    float: right;
+}
+.navbar-nav > li{
+    float: left;
+    position: relative;
+    display: block;
+}
+.rgstr{
+    padding: 20px 15px;
+}
+.parallelogram{
+    min-width: 100px;
+    height: 70px;
+    text-align: center;
+    transform: skew(-21deg);
+    color: #22b6b0;
+}
+.parallelogram:hover, .active{
+    background: #22b6b0;
+    color: #fff;
+    transition: all 0.7s ease;
+}
+.parallelogram > .text{
+    transform: skew(21deg)
+}
+a{
+    text-decoration: none;
+    position: relative;
+    display: block;
+    font-size: 18px;
+}
+.nav-header img{
+    float: left;
+    max-height: 70px;
+    vertical-align: middle;
+    max-width: 100%;
+}
